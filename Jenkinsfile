@@ -33,7 +33,7 @@ pipeline {
                 docker run -d \
                   --name myapp \
                   -p 5001:5000 \
-                  -p 80:80
+                  -p 80:80 \
                   myapp
                 '''
             }
